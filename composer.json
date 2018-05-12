@@ -1,0 +1,22 @@
+{
+    "name": "avra911/boarding-cards",
+    "description": "Trip sorter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Razvan AVRAMESCU",
+            "email": "razvan@nrj.ro"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BoardingCards\\": "src"
+        }
+    }
+}
